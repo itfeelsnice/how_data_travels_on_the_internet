@@ -2,6 +2,7 @@
 let add1 = "/";
 let add2 = "/static/css_file.css";
 let add3 = "/static/js_file.js";
+let add4 = "/";
 let local_cache_name1 = "LocalCache12";
 
 self.addEventListener("install", e =>{

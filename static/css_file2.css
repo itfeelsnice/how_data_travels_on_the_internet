@@ -1,0 +1,172 @@
+
+body{
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
+}
+
+#title1{
+    position: relative;
+    font-size: 40px;
+    left: 12.3%;
+    background-image: linear-gradient(to left, lightslategray, lightsteelblue, lightskyblue);
+    background-clip: text;
+    color: transparent;
+    background-size: 1500px;
+    animation: color1 4s linear infinite;
+}
+
+@keyframes color1{
+    0%{background-position: 0 0;}
+    100%{background-position: 1500px 0;}
+}
+
+#div1{
+    position: relative;
+    border: solid 1px;
+    width: 950px;
+    height: 200px;
+    left: 2vmax;
+    top: 2vmax;
+    border-color: lightseagreen;
+}
+
+#net1{
+    position: absolute;
+    top: 10.5vmax;
+    left: 21.5vmax;
+    font-size: 15px;
+    color: lightskyblue;
+    text-decoration: underline;
+    text-decoration-color: lightskyblue;
+}
+
+#dev1{
+    position: absolute;
+    font-size: 30px;
+    top: 3vmax;
+    left: 0.5vmax;
+    color: lightskyblue;
+}
+
+#line1{
+    position: absolute;
+    height: 2px;
+    width: 5vmax;
+    background-color: black;
+    top: 5vmax;
+    left: 8vmax;
+    background-color: lightsteelblue;
+}
+
+#dns1{
+    position: absolute;
+    font-size: 30px;
+    left: 15vmax;
+    top: 3vmax;
+    color: lightskyblue;
+}
+
+#arrow1{
+    position: absolute;
+    font-size: 25px;
+    top: 3.35vmax;
+    color: black;
+    left: 13vmax;
+    color: lightsteelblue;
+}
+
+#router1{
+    position: absolute;
+    left: 41vmax;
+    top: 3vmax;
+    font-size: 30px;
+    color: lightskyblue;
+}
+
+#line2{
+    position: absolute;
+    height: 2px;
+    width: 11vmax;
+    background-color: black;
+    top: 5vmax;
+    left: 27vmax;
+    background-color: lightsteelblue;
+}
+
+#arrow2{
+    position: absolute;
+    font-size: 25px;
+    top: 3.35vmax;
+    color: black;
+    left: 38vmax;
+    color: lightsteelblue;
+}
+
+#request1{
+    position: absolute;
+    width: 50px;
+    height: 10px;
+    border-radius: 30px;
+    left: 27vmax;
+    background-color: black;
+    top: 4vmax;
+    animation: move1 3s linear infinite;
+    background-color: lightslategray;
+}   
+
+@keyframes move1{
+    0%{transform: translateX(0vmax);}
+    50%{transform: translateX(8vmax);}
+    100%{transform: translateX(0vmax);}
+}
+
+#div2{
+    position: relative;
+    border: solid 1px;
+    border-color: lightseagreen;
+    width: 400px;
+    height: 200px;
+    left: 70vmax;
+    top: -8.5vmax;
+}
+
+#isp1{
+    position: absolute;
+    font-size: 30px;
+    top: 2.9vmax;
+    color: lightskyblue;
+    left: 1.8vmax;
+}
+
+#line3{
+    position: absolute;
+    height: 2px;
+    width: 11vmax;
+    background-color: black;
+    top: 12.3vmax;
+    left: 54vmax;
+    background-color: lightsteelblue;
+}
+
+#arrow3{
+    position: absolute;
+    font-size: 25px;
+    top: 10.6vmax;
+    color: black;
+    left: 65vmax;
+    color: lightsteelblue;
+}
+
+#request2{
+    position: absolute;
+    width: 50px;
+    height: 10px;
+    border-radius: 30px;
+    left: 54vmax;
+    background-color: black;
+    top: 11.4vmax;
+    animation: move1 4s linear infinite;
+    background-color: lightslategray;
+}   
+

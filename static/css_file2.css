@@ -1,6 +1,6 @@
 
 body{
-    overflow: hidden;
+    overflow-x: hidden;
     padding: 0px;
     margin: 0px;
 }
@@ -53,7 +53,6 @@ body{
     position: absolute;
     height: 2px;
     width: 5vmax;
-    background-color: black;
     top: 5vmax;
     left: 8vmax;
     background-color: lightsteelblue;
@@ -71,7 +70,6 @@ body{
     position: absolute;
     font-size: 25px;
     top: 3.35vmax;
-    color: black;
     left: 13vmax;
     color: lightsteelblue;
 }
@@ -88,7 +86,6 @@ body{
     position: absolute;
     height: 2px;
     width: 11vmax;
-    background-color: black;
     top: 5vmax;
     left: 27vmax;
     background-color: lightsteelblue;
@@ -98,7 +95,6 @@ body{
     position: absolute;
     font-size: 25px;
     top: 3.35vmax;
-    color: black;
     left: 38vmax;
     color: lightsteelblue;
 }
@@ -109,7 +105,6 @@ body{
     height: 10px;
     border-radius: 30px;
     left: 27vmax;
-    background-color: black;
     top: 4vmax;
     animation: move1 3s linear infinite;
     background-color: lightslategray;
@@ -143,7 +138,6 @@ body{
     position: absolute;
     height: 2px;
     width: 11vmax;
-    background-color: black;
     top: 12.3vmax;
     left: 54vmax;
     background-color: lightsteelblue;
@@ -164,9 +158,405 @@ body{
     height: 10px;
     border-radius: 30px;
     left: 54vmax;
-    background-color: black;
     top: 11.4vmax;
     animation: move1 4s linear infinite;
     background-color: lightslategray;
 }   
 
+#isp2{
+    position: absolute;
+    font-size: 15px;
+    text-decoration: underline;
+    text-decoration-color: lightskyblue;
+    color: lightskyblue;
+    top: 10.4vmax;
+    left: 8.5vmax;
+}
+
+#line4{
+    position: absolute;
+    height: 2px;
+    width: 4vmax;
+    background-color: lightsteelblue;
+    top: 12.3vmax;
+    left: 93vmax;
+}
+
+#line5{
+    position: absolute;
+    height: 2px;
+    width: 16vmax;
+    background-color: lightsteelblue;
+    left: 88.9vmax;
+    top: 20.3vmax;
+    transform: rotateZ(90deg);
+}
+
+#line6{
+    position: absolute;
+    height: 2px;
+    width: 4vmax;
+    top: 28.3vmax;
+    left: 93vmax;
+    background-color: lightsteelblue;
+}
+
+#arrow4{
+    position: absolute;
+    font-size: 25px;
+    top: 26.6vmax;
+    left: 92.3vmax;
+    color: lightsteelblue;
+}
+
+#div3{
+    position: relative;
+    border: solid 1px;
+    border-color: lightseagreen;
+    width: 400px;
+    height: 200px;
+    left: 70vmax;
+    top: -3vmax;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#net2{
+    color: lightskyblue;
+    font-size: 30px;
+}
+
+#request3{
+    position: absolute;
+    width: 10px;
+    height: 50px;
+    border-radius: 30px;
+    left: 97.4vmax;
+    top: 12.3vmax;
+    animation: move2 5s linear infinite;
+    background-color: lightslategray;
+}
+
+@keyframes move2{
+    0%{transform: translateY(0vmax);}
+    50%{transform: translateY(13.5vmax);}
+    100%{transform: translateY(0vmax);}
+}
+
+#line7{
+    position: absolute;
+    height: 2px;
+    width: 11vmax;
+    top: 28.3vmax;
+    left: 54.8vmax;
+    background-color: lightsteelblue;
+}
+
+#arrow5{
+    position: absolute;
+    font-size: 25px;
+    top: 26.6vmax;
+    left: 54vmax;
+    color: lightsteelblue;
+}
+
+#request4{
+    position: absolute;
+    width: 50px;
+    height: 10px;
+    border-radius: 30px;
+    left: 63.1vmax;
+    top: 27.4vmax;
+    animation: move3 2.5s linear infinite;
+    background-color: lightslategray;
+}
+
+
+@keyframes move3{
+    0%{transform: translateX(0vmax);}
+    50%{transform: translateX(-8vmax);}
+    100%{transform: translateX(0vmax);}
+}
+
+#div4{
+    position: relative;
+    border: solid 1px;
+    width: 950px;
+    height: 200px;
+    left: 2vmax;
+    top: -13.5vmax;
+    border-color: lightseagreen;
+}
+
+#des1{
+    position: absolute;
+    color: lightskyblue;
+    top: 2.9vmax;
+    left: 36.3vmax;    
+}
+
+#des2{
+    position: absolute;
+    font-size: 15px;
+    text-decoration: underline;
+    text-decoration-color: lightskyblue;
+    color: lightskyblue;
+    top: 10.3vmax;
+    left: 20vmax;
+}
+
+#line8{
+    position: absolute;
+    height: 2px;
+    width: 4vmax;
+    top: 4.95vmax;
+    left: 31.5vmax;
+    background-color: lightsteelblue;
+}
+
+#arrow6{
+    position: absolute;
+    font-size: 25px;
+    top: 3.2vmax;
+    left: 30.8vmax;
+    color: lightsteelblue;
+}
+
+#rq1{
+    position: absolute;
+    color: lightskyblue;
+    top: 2.9vmax;
+    left: 22vmax;  
+}
+
+#line9{
+    position: absolute;
+    height: 2px;
+    width: 17vmax;
+    top: 4.95vmax;
+    left: 3vmax;
+    background-color: lightsteelblue;
+}
+
+#arrow7{
+    position: absolute;
+    font-size: 25px;
+    top: 3.25vmax;
+    left: 2.3vmax;
+    color: lightsteelblue;
+}
+
+#request5{
+    position: absolute;
+    width: 50px;
+    height: 10px;
+    border-radius: 30px;
+    left: 17vmax;
+    top: 4vmax;
+    animation: move4 4.5s linear infinite;
+    background-color: lightslategray;
+}
+
+@keyframes move4{
+    0%{transform: translateX(0vmax);}
+    50%{transform: translateX(-13.5vmax);}
+    100%{transform: translateX(0vmax);}
+}
+
+#line10{
+    position: absolute;
+    background-color: lightsteelblue;
+    width: 1vmax;
+    height: 2px;
+    top: 28.3vmax;
+    left: 0.5vmax;
+}
+
+#line11{
+    position: absolute;
+    background-color: lightsteelblue;
+    height: 2px;
+    width: 16vmax;
+    transform: rotateZ(90deg);
+    top: 36.25vmax;
+    left: -7.5vmax;
+}
+
+#line12{
+    position: absolute;
+    background-color: lightsteelblue;
+    width: 1vmax;
+    height: 2px;
+    top: 44.2vmax;
+    left: 0.5vmax;
+}
+
+#arrow8{
+    position: absolute;
+    font-size: 25px;
+    top: 42.55vmax;
+    left: 1.3vmax;
+    color: lightsteelblue;
+}
+
+#request6{
+    position: absolute;
+    width: 10px;
+    height: 50px;
+    border-radius: 30px;
+    top: 28.5vmax;
+    left: 1vmax;
+    animation: move5 2s linear infinite;
+    background-color: lightslategray;
+    transform: rotateZ(90deg);
+}
+
+@keyframes move5 {
+    0%{transform: translateY(0vmax);}
+    50%{transform: translateY(12.5vmax);}
+    100%{transform: translateY(0vmax);}
+}
+
+#a1{
+    position: absolute;
+    font-size: 15px;
+    text-decoration: underline;
+    text-decoration-color: lightskyblue;
+    color: lightskyblue;
+    top: 10.4vmax;
+    left: 6.5vmax;
+}
+
+#div5{
+    position: relative;
+    border: solid 1px;
+    width: 1350px;
+    height: 200px;
+    border-color: lightseagreen;
+    top: -8.5vmax;
+    left: 3vmax;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#rr1{
+    position: absolute;
+    left: 1vmax;
+    color:lightskyblue;
+}
+
+#line13{
+    position: absolute;
+    width: 4vmax;
+    height: 2px;
+    left: 21vmax;
+    background-color: lightsteelblue;
+}
+
+#arrow9{
+    position: absolute;
+    font-size: 25px;
+    top: 3.5vmax;
+    left: 25vmax;
+    color: lightsteelblue;
+}
+
+#rts1{
+    position: absolute;
+    left: 27vmax;
+    color:lightskyblue;
+}
+
+#sr1{
+    position: absolute;
+    left: 56vmax;
+    color:lightskyblue;
+}
+
+#line14{
+    position: absolute;
+    width: 7vmax;
+    height: 2px;
+    left: 47vmax;
+    background-color: lightsteelblue;
+}
+
+#arrow10{
+    position: absolute;
+    font-size: 25px;
+    top: 3.5vmax;
+    left: 54vmax;
+    color: lightsteelblue;
+}
+
+#line15{
+    position: absolute;
+    width: 20vmax;
+    height: 2px;
+    left: 76vmax;
+    top: 44vmax;
+    background-color: lightsteelblue;
+}
+
+#arrow11{
+    position: absolute;
+    font-size: 25px;
+    top: 42.3vmax;
+    left: 96vmax;
+    color: lightsteelblue;
+}
+
+#request7{
+    position: absolute;
+    width: 50px;
+    height: 10px;
+    border-radius: 30px;
+    top: 43vmax;
+    left: 76vmax;
+    animation: move6 6s linear infinite;
+    background-color: lightslategray;
+}
+
+@keyframes move6 {
+    0%{transform: translateX(0vmax);}
+    50%{transform: translateX(17vmax);}
+    100%{transform: translateX(0vmax);}
+}
+
+#dn2{
+    position: absolute;
+    font-size: 15px;
+    text-decoration: underline;
+    text-decoration-color: lightskyblue;
+    color: lightskyblue;
+    top: 10.3vmax;
+}
+
+#meta1{
+    position: relative;
+    width: 1200px;
+    height: 300px;
+    border: 1px solid;
+    border-color: lightseagreen;
+    text-align: center;
+    left: 18vmax;
+    top: -4vmax;
+}
+
+.a2{
+    position: relative;
+    color: lightskyblue;
+}
+ 
+#link1{
+    position: relative;
+    color: lightskyblue;
+    outline: none;
+    font-size: 25px;
+}
+
+#link1:active{
+    color: lightseagreen;
+}
